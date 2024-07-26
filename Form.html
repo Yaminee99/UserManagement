@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "success.html">
+
+     <div>
+        <label for = "company">Company</label>
+        <input type="text" id = "company" name = "Neosoft" value = "Neosoft" readonly>
+     </div>   
+     <br>
+
+     <div>
+        <label for = "company1">Company</label>
+        <input type="text" id = "company1" name = "Neosoft"  value = "Neosoft" disabled>
+     </div>   
+     <br>
+
+     <div>
+     <label for = "firstName">Enter First name</label>   
+     <input type = "text" id = "firstName" placeholder = "Enter first name" required pattern = "[A-Za-z ]*"/>
+    </div>
+    <br>
+    <div>
+        <label for = "lastName">Enter last name</label>   
+        <input type = "text" id = "lastName" placeholder = "Enter last name" required/>
+    </div>
+    <br>
+    <div>
+        <label for = "age">Enter age</label>   
+        <input type = "number" id = "age" placeholder = "Enter age" min="20" max = "40" pattern = "[A-Z]{2-20}" required/>
+    </div>
+    <br>
+    <div>
+        <label for = "email">Enter email</label>   
+        <input type = "email" id = "email" placeholder = "Enter email" required />
+    </div>
+    <br>
+    <div>
+        <label for = "password">Enter password</label>   
+        <input type = "password" id = "password" placeholder = "Enter password" required minlength="3" maxlength="8"/>
+    </div>
+    <br>
+
+    <div>
+        <label for = "courses">Select courses for training</label>   
+        <input type = "checkbox" id = "course1" name = "course" value="WebBasics" /><label for ="course1">WebBasics</label>
+        <input type = "checkbox" id = "course2" name = "course" value="Git" /><label for ="course2">Git</label>
+        <input type = "checkbox" id = "course3" name = "course" value="MySql" /><label for ="course3">Mysql</label>
+        <input type = "checkbox" id = "course4" name = "course" value="Node" /><label for ="course4">Node</label>
+        <input type = "checkbox" id = "course5" name = "course" value="Angular" /><label for ="course5">Angular</label>
+    </div>
+
+    <br>
+    <div>
+        <label for = "courses">Select Gender</label>   
+        <input type = "radio" id = "gender1" name = "gender" value="Male" /><label for ="gender1">Male</label>
+        <input type = "radio" id = "gender2" name = "gender" value="Female" /><label for ="gender2">Female</label>
+       
+    </div>
+   <br>
+
+   <div>
+    <label for="registration">Select one  course</label>
+    <select id = "department1" name = department>
+    <option value = "webBasic Department">WebBasic</option>
+    <option value = "Java Department">Java</option>
+    <option value = "HR Department">HR</option>
+    <select>
+   </div>
+
+   <br>
+   <div>
+   <input type = "color">
+   </div>
+   <br>
+   <div>
+    <input type="date" id = "date" name = "Date">
+    <input type="datetime-local">
+    <input type ="hidden">
+    <!-- <input type = "week"> -->
+    <!-- <input type = "range"> -->
+
+   </div>
+  
+    <div>
+        <input type="submit">
+    </div>
+
+    </form>
+</body>
+</html>
