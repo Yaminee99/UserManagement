@@ -9,3 +9,15 @@ h2{
 body{
   background-color: aquamarine;
 }
+header{
+  border: 4px double red;
+}
+.navbar{
+  border : 2px solid;
+  padding:10px;
+  background-color:black;
+}
+.navbar a{
+  padding:10px;
+  border:white;
+}
